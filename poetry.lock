@@ -226,7 +226,7 @@ scikit-learn = ">=0.21"
 scipy = "*"
 
 [package.dependencies.dask]
-extras = ["dataframe", "array"]
+extras = ["array", "dataframe"]
 version = ">=2.4.0"
 
 [package.extras]
@@ -1391,7 +1391,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "55967af561eb1fe72bcc654d6d9d04ac6618ca07bef044c4c38a387e9e5971ca"
+content-hash = "a74e13c7a37c4f764df7964dcf180047f5d0d640a1a052bfaed2bbddbbde6e05"
 python-versions = "^3.7"
 
 [metadata.files]
